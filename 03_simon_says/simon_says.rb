@@ -31,3 +31,7 @@ def first_word(stringer)
 
 
 end
+
+def titleize(word)
+  return word.capitalize
+end
