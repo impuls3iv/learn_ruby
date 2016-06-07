@@ -16,11 +16,18 @@ def start_of_word(str, places)
 
   return str[0..places-1]
 
-  # my_arr = []
-  #  my_arr << str.split('')
-  #
-  #  for i in 0..places.to_i-1
-  #    return my_arr[i]
-  #  end
+end
+
+def first_word(stringer)
+
+  my_arr = []
+  words = stringer.split(' ')
+  return words[0]
+  # stringer.each do |x|
+  #   my_arr << x
+  # end
+  # return my_arr[0]
+
+
 
 end
