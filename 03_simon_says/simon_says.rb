@@ -7,7 +7,7 @@ def shout(second)
 end
 
 def repeat(third, num = 2)
-  return "#{third} " * num
+  return "#{third}" * num
 end
 
 
